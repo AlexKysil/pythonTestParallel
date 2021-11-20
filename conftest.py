@@ -12,7 +12,6 @@ def driver_session():
     """
 
     driver_session = webdriver.Chrome(executable_path=chrome_path)
-    driver_session.maximize_window()
     driver_session.implicitly_wait(5)
 
     yield driver_session
