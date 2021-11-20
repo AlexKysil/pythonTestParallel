@@ -1,3 +1,4 @@
 pytest
 selenium
 chromedriver-py==95.0.4638.17
+pytest-xdist
